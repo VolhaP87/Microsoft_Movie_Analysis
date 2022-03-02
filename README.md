@@ -30,7 +30,14 @@ Only one out of the three DataFrames contained duplicates and null values. Dupli
 
 ## Methods
 
-Descriptive analysis were used to analyze and model the data. Horizontal bar charts were plotted in order to find the most wolrdwide grossing movie genres and movie directors since 2010. To determine the relation between the production budget and movie rating, a scatter was graphed. All the information was taken from the merged DataFrame. 
+Descriptive analysis were used to analyze and model the data. Horizontal bar charts were plotted in order to find the most wolrdwide grossing movie genres and movie directors since 2010. 
+***
+To determine the relation between the production budget and movie rating, the following steps were performed:
+* the production budget was binned, however, the outlier (the movie with the highest production budget) was not included
+* the data was grouped, the average rating was found for each binned category
+* bar chart was plotted
+***
+All the information was taken from the merged DataFrame. 
 
 ## Results
 
@@ -44,7 +51,7 @@ The highest worldwide grossing movie directors since 2010 are [Joss Whedon](http
 
 <img src="images/budget-rating.png">
 
-Although it is possible to see a slight direct relation between the movie rating and production budget from the scatter, the majority of movies do not follow this trend. The vast amount of released films have the budget below 50 million dollars and their rating is between 5.5 and 7 stars. We can also see that the highest rating belongs to the movie with the budget of 23 million dollars, while the most expensive movie (with production budget of over 300 million dollars) has a rating below 8 stars. From the scatter we can also notice that even with higher movie production cost, the rating is still between 5.5 and 7 stars.
+As seen from the bar plot, the production budget doesn't influcence much on the average movie rating, since the ratings are between 6 and 7 stars for all budgets. However, the best ratings belong to the movies with the production budget from 150 million dollars to 200 million dollars.
 
 ## Conclusions
 
@@ -53,7 +60,6 @@ This analysis leads to three recommendations for building a new movie studio by 
 ***
 * The movie genres with the highest average worldwide gross are Animation, Adventure and Science Fiction.
 * The movie directors with the highest average worldwide gross are Joss Whedon, Kyle Balda, and Pierre Coffin.
-* There is no direct relation between movie production budget and its rating. However, the vast majority of films have budget below 50 million dollars and their ratings differ from 5 to 7 stars
+* There is no direct relation between movie production budget and its rating, since average rating fluctuates between 6 and 7 stars. However, the best ratings belongs to movie with the production budget from 150 million dollars to 200 million dollars.
 ***
-The results of the performed analysis can be used by Microsoft in order to get the higher profit when filming. However, a deeper research can be conducted. So, the analysis of movie ratings and the months when the movies were released, the wolrdwide gross of the movies and the writers of those movies, etc. can be done in order to get a bigger image of the movies that do the best at the box offices.
-
+The results of the performed analysis can be used by Microsoft in order to get the higher profit when filming. However, a deeper research can be conducted. So, the analysis of movie ratings and the months when the movies were released, the wolrdwide gross of the movies and the writers of those movies, etc. can be done in order to get a bigger image of the movies that do the best at the box offices. Also, as concerns the relation between production budget and average movie ratings, more research could be conducted and the number of films in each category should be taken into account. If we look at the number of movies for each binned category, we will see that the majority of movies have budget below 50 million dollars and their ratings fluctuate from the lowest to the highest. So, to my opinion, movies in those category along should be analyzed to get the more accurate image of the situation.
