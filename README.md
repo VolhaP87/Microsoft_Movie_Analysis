@@ -41,7 +41,7 @@ All the information was taken from the merged DataFrame.
 
 ## Results
 
-<img src="images/gross-genre.png">
+<img src="images/gross_genre.png">
  
 The highest worldwide grossing movie genres since 2010 have been animation, adventure and science fiction.
 
