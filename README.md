@@ -49,7 +49,7 @@ The highest worldwide grossing movie genres since 2010 have been animation, adve
 
 The highest worldwide grossing movie directors since 2010 are [Joss Whedon](https://www.imdb.com/name/nm0923736/#director), [Kyle Balda](https://www.imdb.com/name/nm0049633/), and [Pierre Coffin](https://www.imdb.com/name/nm1853544/).
 
-![](images/Budget-rating.png)
+![](images/budget-rating.png)
 
 As seen from the bar plot, the production budget doesn't influcence much on the average movie rating, since the ratings are between 6 and 7 stars for all budgets. However, the best ratings belong to the movies with the production budget from 150 million dollars to 200 million dollars.
 
